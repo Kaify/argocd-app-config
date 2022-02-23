@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kaify-gitops-test
+  name: myapp
 spec:
   selector:
     matchLabels:
